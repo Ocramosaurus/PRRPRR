@@ -3,18 +3,18 @@ print("hej, hur gammal är du?")
 age = input()
 age = int(age)
 
-if age < 7:
-    print("det kostar 85 kr.")
-elif age > 6 and age < 20:
+if age < 5:
+    print("Vart är dina föräldrar pojk.")
+elif age > 4 and age < 8:
     print("det kostar 100 kr.")
-elif age > 19 and age < 65:
+elif age > 7 and age < 65:
     print("det kostar 130 kr.")
 elif age >= 65:
     print("det kostar 85 kr.")
 
 
 
-while True:
+while True and age < 20 and age > 5:
 
     print("Är du student?")
 
@@ -29,3 +29,4 @@ while True:
         break
     elif student != "Nej" or student != "Ja":
         print("Jag förstår inte..")
+    
